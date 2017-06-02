@@ -3,9 +3,13 @@
 ## Problem statement:
 
 The first line contains two integers `N` and `Q`. 
+
 The second line contains an array `A` with `N` integers.
+
 Then `Q` lines follow with each 3 integers `t`, `x` and `y`.
+
 If `t` is 1, then update `A[x]` to the value `y`. 
+
 If `t` is 2, then print the result of `A[x] xor A[x+1] xor ... xor A[y]`. 
 
 ## Example test case:
